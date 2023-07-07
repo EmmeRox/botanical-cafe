@@ -3,7 +3,7 @@
 function Home() {
     return (
         <div>
-            <h1 className="font-extrabold"></h1>
+            <h1 className="font-extrabold">Hello</h1>
         </div>
     )
 }
