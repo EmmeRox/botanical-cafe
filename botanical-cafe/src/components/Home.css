@@ -1,4 +1,21 @@
 .background-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("../../public/succulent.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 960px) {
+  .bc-logo {
+    display: none;
+  }
+  h1 {
+    padding: 0;
+  }
+  h2 {
+    padding: 0;
+  }
 }
