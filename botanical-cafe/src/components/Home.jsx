@@ -1,11 +1,9 @@
-
-
 function Home() {
-    return (
-        <div>
-            <h1 className="font-extrabold">Hello Botanical Cafe</h1>
-        </div>
-    )
+  return (
+    <div className="background-img">
+      <h1 className="font-extrabold">Hello Botanical Cafe</h1>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
