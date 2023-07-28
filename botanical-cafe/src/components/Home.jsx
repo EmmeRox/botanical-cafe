@@ -1,4 +1,6 @@
 import "./Home.css";
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
