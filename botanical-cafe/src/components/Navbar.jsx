@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Navbar() {
     return (
         <>
-        <nav>
+        <nav className='m-auto max-w-5xl'> 
             <div className="navbar">
                 <ul className='flex justify-between ml-6 p-3 text-2xl'>
                     <li className="links">Home</li>
