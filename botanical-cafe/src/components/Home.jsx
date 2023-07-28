@@ -1,9 +1,11 @@
 import "./Home.css";
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import About from "./About";
+//import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+//import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
+    <>
     <div className="background-img md:flex md:space-x-3 p-40 border-4 m-auto max-w-5xl border-pink-300">
       <div className="justify-center pr-20 md:pt-10">
         <h1 className="font-extrabold text-center text-3xl md:text-6xl text-white">
@@ -21,6 +23,8 @@ function Home() {
         />
       </div>
     </div>
+    <About />
+    </ >
   );
 }
 

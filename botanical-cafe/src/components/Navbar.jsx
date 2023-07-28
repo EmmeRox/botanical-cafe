@@ -5,11 +5,13 @@ function Navbar() {
         <>
         <nav>
             <div className="navbar">
-                <ul className=''>
+                <ul className='flex justify-between ml-6 p-3 text-2xl'>
                     <li className="links">Home</li>
-                    <li className="className">About</li>
-                    <li className="className">Contact</li>
-                    <li className="className"></li>
+                    <li className="links">About</li>
+                    <li className="links">Contact</li>
+                    <li className="links"></li>
                     </ul></div></nav></>
     )
 }
+
+export default Navbar;
