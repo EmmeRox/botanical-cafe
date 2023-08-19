@@ -1,6 +1,7 @@
 import "./Home.css";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 //import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
 //import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -26,6 +27,7 @@ function Home() {
       </div>
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }

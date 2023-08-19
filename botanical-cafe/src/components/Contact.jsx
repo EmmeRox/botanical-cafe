@@ -4,8 +4,8 @@ function Contact() {
   return (
     <>
       <h1 className="contact font-bold">Contact Us</h1>
-      <div className="infopart flex m-auto max-w-5xl">
-        <p>lorem</p>
+      <div className="infopart flex justify-between m-auto max-w-5xl p-10">
+        <h3>Phone</h3>
         <p>lorem</p>
         <p>lorem</p>
       </div>
