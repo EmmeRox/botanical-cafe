@@ -1,4 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Playfair:opsz@5..1200&display=swap");
+
 #root {
   margin: 0 auto;
   text-align: center;
+  font-family: "Poiret One", cursive;
+}
+
+.mainbody {
+  background-image: linear-gradient(
+    rgba(3, 49, 9, 0.63),
+    rgba(36, 83, 41, 0.822)
+  );
 }

@@ -5,8 +5,5 @@
 #root {
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(
-    rgba(7, 70, 15, 0.63),
-    rgba(36, 83, 41, 0.822)
-  );
+  background-color: aliceblue;
 }

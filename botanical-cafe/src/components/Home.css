@@ -1,5 +1,5 @@
 .background-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("/succulent.jpg");
   background-size: cover;
   background-position: center;
@@ -8,12 +8,28 @@
   position: relative;
 }
 
+h1 {
+  font-family: "Charm", cursive;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.bc-logo {
+  max-width: 300px;
+}
+
 @media (max-width: 960px) {
   .bc-logo {
     display: none;
   }
   h1 {
     padding: 0;
+    font-size: 80px;
   }
   h2 {
     padding: 0;
