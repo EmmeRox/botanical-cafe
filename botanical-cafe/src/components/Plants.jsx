@@ -1,10 +1,8 @@
 function Plants() {
   return (
     <>
-      <div className="interestPla p-5 max-w-5xl">
-        <a href="">
-          <h3 className="text-4xl font-bold">Plants</h3>
-        </a>
+      <div className="button-container p-5">
+        <button className="button text-3xl">Plants</button>
       </div>
     </>
   );

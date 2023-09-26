@@ -2,28 +2,26 @@
   background-color: aliceblue;
 }
 
-.interestCof {
-  background-image: linear-gradient(
-    rgba(8, 104, 72, 0.877),
-    rgba(13, 63, 0, 0.836)
-  );
-  height: 6rem;
-  width: 100%;
-  position: relative;
-  margin: 1rem;
+.button {
+  cursor: pointer;
+  background-color: rgba(3, 49, 9, 0.63);
+  border: none;
+  outline: none;
   border-radius: 5px;
-  box-shadow: rgb(110, 94, 109) 7px 10px 3px;
+  color: pink;
+  font-family: "Charm", cursive;
+  margin: 0.5rem 2rem;
+  padding: 1.3rem 5rem;
+  letter-spacing: 0.5rem;
+  box-shadow: rgb(142, 108, 145, 0.65) 0rem 0.5rem;
 }
 
-.interestPla {
-  background-image: linear-gradient(
-    rgba(8, 104, 72, 0.877),
-    rgba(13, 63, 0, 0.836)
-  );
-  height: 6rem;
-  width: 100%;
-  position: relative;
-  margin: 1rem;
-  border-radius: 5px;
-  box-shadow: rgb(110, 94, 109) 7px 10px 3px;
+.button:hover {
+  color: white;
+  filter: brightness(120%);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: none;
 }

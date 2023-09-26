@@ -1,10 +1,8 @@
 function Coffee() {
   return (
     <>
-      <div className="interestCof p-5 max-w-5xl">
-        <a href="">
-          <h3 className="text-4xl font-bold">Coffee</h3>
-        </a>
+      <div className="button-container p-5">
+        <button className="button text-3xl">Coffee</button>
       </div>
     </>
   );

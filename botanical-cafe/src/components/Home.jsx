@@ -2,6 +2,8 @@ import "./Home.css";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Plantinfo from "./PlantInfo";
+import Coffeeinfo from "./Coffeeinfo";
 //import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
 //import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
@@ -26,6 +28,8 @@ function Home() {
         </div>
       </div>
       <About />
+      <Coffeeinfo />
+      <Plantinfo />
       <Contact />
       <Footer />
     </>
