@@ -1,3 +1,29 @@
 .infopart {
   background-color: aliceblue;
 }
+
+.interestCof {
+  background-image: linear-gradient(
+    rgba(8, 104, 72, 0.877),
+    rgba(13, 63, 0, 0.836)
+  );
+  height: 6rem;
+  width: 100%;
+  position: relative;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: rgb(110, 94, 109) 7px 10px 3px;
+}
+
+.interestPla {
+  background-image: linear-gradient(
+    rgba(8, 104, 72, 0.877),
+    rgba(13, 63, 0, 0.836)
+  );
+  height: 6rem;
+  width: 100%;
+  position: relative;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: rgb(110, 94, 109) 7px 10px 3px;
+}

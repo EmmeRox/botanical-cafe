@@ -1,14 +1,15 @@
 import "./About.css";
+import Plants from "./Plants";
+import Coffee from "./Coffee";
 
 function About() {
   return (
     <>
-      <div className="infopart p-5 max-w-5xl m-auto">
-        <h1 className="text-3xl font-bold">Our Services</h1>
+      <div className="infopart p-6 max-w-5xl m-auto">
+        <h2 className="text-2xl font-bold m-4">I&apos;m interested in your</h2>
         <div className="p-6 pt-3 flex justify-between">
-          <h2 className="text-xl">lorem</h2>
-          <h2 className="text-xl">lorem</h2>
-          <h2 className="text-xl">lorem</h2>
+          <Plants />
+          <Coffee />
         </div>
       </div>
     </>
