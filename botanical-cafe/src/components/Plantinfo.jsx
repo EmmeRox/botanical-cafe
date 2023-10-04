@@ -5,7 +5,8 @@ function Plantinfo() {
     <>
       <div className="infoPlant p-5 m-auto max-w-5xl" id="plants">
         <h4 className="p-4 font-bold text-2xl">Our Plants</h4>
-        <section className="leaves">
+        <section className="leaves flex">
+          <img src="/calathea.jpg" className="max-w-sm rounded" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In
             assumenda voluptatibus consectetur ad sint quaerat aliquid

@@ -28,6 +28,13 @@ h2 {
   max-width: 300px;
 }
 
+.infocafe {
+  margin: 4rem;
+  background-color: rgba(150, 185, 150, 0.781);
+  border-radius: 10px;
+  border: solid pink;
+}
+
 @media (max-width: 960px) {
   .bc-logo {
     display: none;

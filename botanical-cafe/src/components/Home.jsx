@@ -28,10 +28,12 @@ function Home() {
         </div>
       </div>
       <About />
-      <Coffeeinfo />
-      <Plantinfo />
-      <Contact />
-      <Footer />
+      <div className="infocafe border-pink-300 max-w-5xl m-auto p-10">
+        <Coffeeinfo />
+        <Plantinfo />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
