@@ -1,0 +1,12 @@
+.cc-icon {
+  max-height: 10rem;
+  margin-top: 2rem;
+}
+
+.cc-icon img {
+  display: flex;
+}
+
+.beans {
+  align-items: center;
+}

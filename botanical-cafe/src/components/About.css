@@ -46,6 +46,7 @@
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("/HLL.jpg");
+  background-size: cover;
   border-radius: 10px;
   box-shadow: rgb(142, 108, 145, 0.65) 1px 8px 3px;
   height: 20rem;
@@ -75,8 +76,7 @@
   .interested {
     display: block;
   }
-
-  .button-container2 {
-    margin-top: 1rem;
+  .button-container1 {
+    margin-bottom: 1rem;
   }
 }
