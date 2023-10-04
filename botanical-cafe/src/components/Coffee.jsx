@@ -1,8 +1,8 @@
 function Coffee() {
   return (
     <>
-      <div className="button-container p-5">
-        <button className="button text-3xl">Coffee</button>
+      <div className="button-container2 p-5">
+        <button className="button2 ">Coffee</button>
       </div>
     </>
   );

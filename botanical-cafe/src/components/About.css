@@ -2,18 +2,32 @@
   background-color: aliceblue;
 }
 
+.interested {
+  display: flex;
+}
+
 .button {
   cursor: pointer;
-  background-color: rgba(3, 49, 9, 0.63);
+  background-color: rgba(3, 49, 9, 0);
   border: none;
   outline: none;
   border-radius: 5px;
   color: pink;
   font-family: "Charm", cursive;
-  margin: 0.5rem 2rem;
+  margin: 0 auto;
   padding: 1.3rem 5rem;
   letter-spacing: 0.5rem;
-  box-shadow: rgb(142, 108, 145, 0.65) 0rem 0.5rem;
+  font-size: 4rem;
+}
+
+.button-container1 {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/succulent.jpg");
+  border-radius: 10px;
+  box-shadow: rgb(142, 108, 145, 0.65) 1px 8px 3px;
+  height: 20rem;
+  margin-right: 1rem;
 }
 
 .button:hover {
@@ -21,7 +35,30 @@
   filter: brightness(120%);
 }
 
-button:active {
+.button-container1:active {
   transform: translate(0, 0.3rem);
   box-shadow: none;
+}
+
+.button-container2 {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("/succulent.jpg");
+  border-radius: 10px;
+  box-shadow: rgb(142, 108, 145, 0.65) 1px 8px 3px;
+  height: 20rem;
+}
+
+.button2 {
+  cursor: pointer;
+  background-color: rgba(3, 49, 9, 0);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: pink;
+  font-family: "Charm", cursive;
+  margin: 0 auto;
+  padding: 1.3rem 5rem;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
 }
