@@ -28,7 +28,7 @@ function Home() {
         </div>
       </div>
       <About />
-      <div className="infocafe border-pink-300 max-w-5xl m-auto p-10">
+      <div className="infocafe flex flex-col border-pink-300 max-w-5xl m-auto p-10">
         <Coffeeinfo />
         <Plantinfo />
         <Contact />

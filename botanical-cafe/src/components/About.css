@@ -67,6 +67,11 @@
   font-size: 4rem;
 }
 
+.button-container2:hover {
+  color: white;
+  filter: brightness(120%);
+}
+
 .button-container2:active {
   transform: translate(0, 0.3rem);
   box-shadow: none;
