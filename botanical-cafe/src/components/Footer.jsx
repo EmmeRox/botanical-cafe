@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <div className="flex justify-between p-20 pt-5 m-auto max-w-5xl">
+      <div className="footer flex justify-between pt-5 m-auto max-w-5xl">
         <div className="p-10 pt-5">
           <h6 className="pb-2">Us on Social Media</h6>
           <p className="insta pb-3">
@@ -25,7 +25,7 @@ function Footer() {
             </a>
           </p>
         </div>
-        <div className="p-10 pt-5 text-left text-xl foot">
+        <div className="p-10 pt-5 text-left foot">
           <p>Botanical Cafe</p>
           <p>3740 North Lincoln Avenue</p>
           <p>Chicago, Il, 60613</p>
